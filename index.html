@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo"><img src="images/logo.svg" alt=""></a>
+    <nav class="header-navbar">
+      <ul>
+        <li class="header-first-child">
+          <a href="#">
+            Features
+            <img src="images/icon-arrow-down.svg" alt="">
+          </a>
+          <ul class="header-first-list">
+            <li><a href=""><img src="images/icon-todo.svg" alt="" class="header-symbol">Todo List</a></li>
+            <li><a href=""><img src="images/icon-calendar.svg" alt="" class="header-symbol">Calendar</a></li>
+            <li><a href=""><img src="images/icon-reminders.svg" alt="" class="header-symbol">Reminders</a></li>
+            <li><a href=""><img src="images/icon-planning.svg" alt="" class="header-symbol">Planning</a></li>
+          </ul>
+        </li>
+        <li class="header-second-child">
+          <a href="#">
+            Company
+            <img src="images/icon-arrow-down.svg" alt="">
+          </a>
+          <ul class="header-second-list">
+            <li><a href="">History</a></li>
+            <li><a href="">Our team</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+    </nav>
+    <div class="header-input">
+      <button class="header-login">Login</button>
+      <button class="header-register">Register</button>
+    </div>
+    <svg class="bar-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+    <div class="close-btn"><svg  width="26" height="26" xmlns="http://www.w3.org/2000/svg"><g fill="#151515" fill-rule="evenodd"><path d="m2.393.98 22.628 22.628-1.414 1.414L.979 2.395z"/><path d="M.98 23.607 23.609.979l1.414 1.414L2.395 25.021z"/></g></svg></div>
+  </header>
+
+  <section>
+    <img src="images/image-hero-mobile.png" alt="" class="section-image-mobile" style="width: 100%">
+    <div class="section-desc">
+      <h1>Make remote work</h1>
+      <p>
+        Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.
+      </p>
+      <button>Learn more</button>
+      <div class="section-symbol">
+        <img src="images/client-databiz.svg" alt="">
+        <img src="images/client-audiophile.svg" alt="">
+        <img src="images/client-meet.svg" alt="">
+        <img src="images/client-maker.svg" alt="">
+      </div>
+    </div>
+    <img src="images/image-hero-desktop.png" alt="" class="section-image-desktop" style="width: 100%">
+
+  </section> 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tan Nguyen</a>.
+  </div>
+</body>
+<script src="./app.js"></script>
+</html>
